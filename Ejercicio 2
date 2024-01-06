@@ -1,0 +1,13 @@
+public class Datos {
+    public static void main(String[] args) {
+        long[] arreglo1 = new long[10];
+        for (int i = 0; i < arreglo1.length; i++) {
+            arreglo1[i] = i * 250;
+            System.out.println("Primer arreglo: 1" + arreglo1[i]);
+        }
+        long[] arreglo2 = new long[10];
+        for (int i = 0; i <= arreglo2.length - 1; i++) {
+            System.out.println("Segundo arreglo: " + arreglo1[i]);
+        }
+    }
+}
